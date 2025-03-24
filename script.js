@@ -34,7 +34,7 @@ function displayWeatherData(data) {
     cityName.textContent = data.name;
     temperature.textContent = `Temperatura: ${data.main.temp}°${unitsSelect.value === 'metric' ? 'C' : 'F'}`;
     description.textContent = data.weather[0].description;
-    weatherIcon.src = `/src/icono.png`;
+    weatherIcon.src = 'src/icono.png';
     humidity.textContent = `Humedad: ${data.main.humidity}%`;
     windSpeed.textContent = `Viento: ${data.wind.speed} ${unitsSelect.value === 'metric' ? 'm/s' : 'mph'}`;
 }
