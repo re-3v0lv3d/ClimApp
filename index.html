@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicación del Clima</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>ClimApp</h1>
+        <div class="search-container">
+            <input type="text" id="cityInput" placeholder="Ingresa una ciudad">
+            <button id="searchButton">Buscar</button>
+        </div>
+        <div id="weatherInfo">
+            <img id="weatherIcon" src="/icono.png" alt="Icono del clima">
+            <div id="cityName"></div>
+            <div id="temperature"></div>
+            <div id="description"></div>
+            <div id="humidity"></div>
+            <div id="windSpeed"></div>
+        </div>
+        <div id="history">
+            <h2>Historial de Búsquedas</h2>
+            <ul id="historyList"></ul>
+        </div>
+        <div class="units-container">
+            <label for="units">Unidades:</label>
+            <select id="units">
+                <option value="metric">Métricas (°C, m/s)</option>
+                <option value="imperial">Imperiales (°F, mph)</option>
+            </select>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
