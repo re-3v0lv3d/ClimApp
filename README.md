@@ -20,9 +20,6 @@ https://re-3v0lv3d.github.io/ClimApp/
 * **API de OpenWeatherMap:** Obtención de datos del clima.
 * **LocalStorage:** Almacenamiento del historial de búsquedas.
 
-## Capturas de pantalla
-
-(Aquí puedes agregar capturas de pantalla de tu aplicación)
 
 ## Instalación
 
